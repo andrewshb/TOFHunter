@@ -6,7 +6,7 @@ TOFHunter was designed to screen ICP-TOF-MS data from TOFWERK icpTOF instruments
 ## For use: 
 Download and unzip the folder from the most current released version. 
 Within this folder you will find two .py folders - TOFHunter.py and TOFHunter GUI.py
-These can be run in the users prefered python environment; however, they were designed for use with the Spyder IDE (/https://www.spyder-ide.org/).
+These can be run in the users prefered python environment; however, they were designed for use with the Spyder IDE which can be installed using Anaconda (anaconda.org).
 Both files should be kept in the same directory as included the "Reference Sheets" and "assets" folders to function properly. 
 Data files can be saved within this directory or elsewhere.
 
