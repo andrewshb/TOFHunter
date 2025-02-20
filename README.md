@@ -13,8 +13,8 @@ Data files can be saved within this directory or elsewhere.
 ### TOFHunter.py
 The script can be run by clicking "Run File" or (F5)![image](https://github.com/user-attachments/assets/38ea7451-ad14-4429-aeaf-e54243ce2c80)
  in Spyder. 
-**An .h5 file path must be entered on line 23. **
-Other features can be toggled on lines 22 - 36. Note, modifying lines 38 onward may effect TOFHunter operation.
+**An .h5 file path must be entered on line 24. **
+Other features can be toggled on lines 23 - 37. Note, modifying lines 38 onward may effect TOFHunter operation.
 ![image](https://github.com/user-attachments/assets/6c7b6b7a-41e0-412b-b3ec-098ab9303ec3)
 
 
@@ -32,7 +32,7 @@ See the image below with annotated directions.
 
 A GUI window will appear (see below) and files and features can be modified within the GUI. 
 Note, GUI buttons may need to be clicked several times in the current version. The button will appear depressed when the click is registered. 
-Default feature values can be toggled on lines 35-45. Note, modifying lines 48 onward may effect TOFHunter GUI operation.
+Default feature values can be toggled on lines 30-45. Note, modifying lines 48 onward may effect TOFHunter GUI operation.
 ![image](https://github.com/user-attachments/assets/b6f954fb-d621-410a-871b-f4da2db7db0d)
 
 
