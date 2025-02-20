@@ -47,6 +47,9 @@ Hunter B. Andrews, Lyndsey Hendriks, Sawyer B. Irvine, Daniel R. Dunlap, Benjami
 "TOFHunter – Unlocking Rapid Untargeted Screening by ICP-TOF-MS," _Journal of Analytical Atomic Spectrometry_, 2025.   
 
 ## Required Python Libraries:
+If using Spyder IDE, it is recommended to use "conda install package" for all the below. Note, alive_progress can only be installed via pip. Mixing conda and pip may cause issues with Spyder and it is recommended that a new environment be made to use this.
+For more information on creating a secondary environment for spyder see the linked video at timestamp 6:18 (https://www.youtube.com/watch?v=Ul79ihg41Rs). 
+
 pathlib (https://docs.python.org/3/library/pathlib.html)
 tkinter (https://docs.python.org/3/library/tkinter.html)
 matplotlib (https://matplotlib.org/)
@@ -57,4 +60,5 @@ h5py (https://docs.h5py.org/en/stable/)
 os (https://docs.python.org/3/library/os.html)
 alive_progress (https://github.com/rsalmei/alive-progress)
 re (https://docs.python.org/3/library/re.html)
-sklearn (https://scikit-learn.org/stable/)
+scikit-learn (https://scikit-learn.org/stable/)
+openpyxl (https://openpyxl.readthedocs.io/en/stable/)
