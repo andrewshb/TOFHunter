@@ -264,7 +264,7 @@ def run_TOFHunter(filename, export_path, pca_components, unique_spectra, peak_he
     peak_list = massAxis[peaks]
 
     plt.close(3)
-    plt.figure(3)
+    plt.figure(3,(8,4))
     plt.plot(massAxis, x)
     plt.plot(massAxis[peaks], x[peaks], "x")
     plt.xlabel('Mass-to-charge Ratio (Th)')
