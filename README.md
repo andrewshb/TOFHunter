@@ -3,11 +3,30 @@
 
 TOFHunter was designed to screen ICP-TOF-MS data from TOFWERK icpTOF instruments. The programs are written in python and are provided as .py files.
 
-## For use: 
-Download and unzip the folder from the most current released version. 
-Within this folder you will find two .py folders - TOFHunter.py and TOFHunter GUI.py
+## Installation: 
+Users can download and run TOFHunter either by:
+Directly downloading a copy of this repository 
+or by performing a git clone (https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
+
+### Windows
+1. Open Git Bash.
+2. Change the current working directory to the location where you want the cloned directory.
+3. Type git clone, and then paste the URL you copied earlier.
+git clone https://github.com/andrewshb/TOFHunter
+
+### MAC
+1. Open Terminal.
+2. Change the current working directory to the location where you want the cloned directory.
+3. Type git clone, and then paste the URL you copied earlier.
+git clone https://github.com/andrewshb/TOFHunter
+
+### Folder configuration
+Within the TOFHunter folder you will find two .py files 
+1. TOFHunter.py
+2. TOFHunter GUI.py
+
 These can be run in the users prefered python environment; however, they were designed for use with the Spyder IDE which can be installed using Anaconda (anaconda.org).
-Both files should be kept in the same directory as included the "Reference Sheets" and "assets" folders to function properly. 
+Both files should be kept in the same working directory as included the "Reference Sheets" and "assets" folders to function properly. 
 Data files can be saved within this directory or elsewhere.
 
 ### TOFHunter.py
@@ -41,21 +60,27 @@ _Additional details are provided within each script._
 **Happy Hunting!**
 
 ## Reference:
-For more information on TOFHunter and example applications of its use see the associated reference 
+For more information on TOFHunter and example applications of its use see the associated publication. We ask that if TOFHunter is used in your study that the below article be cited. 
 
 Hunter B. Andrews, Lyndsey Hendriks, Sawyer B. Irvine, Daniel R. Dunlap, Benjamin T. Manard. 
 "TOFHunter – Unlocking Rapid Untargeted Screening by ICP-TOF-MS," _Journal of Analytical Atomic Spectrometry_, 2025.   
 
 ## Required Python Libraries:
-If using Spyder IDE, it is recommended to use "conda install package" for all the below. Note, alive_progress can only be installed via pip. Mixing conda and pip may cause issues with Spyder and it is recommended that a new environment be made to use this.
-For more information on creating a secondary environment for spyder see the linked video at timestamp 6:18 (https://www.youtube.com/watch?v=Ul79ihg41Rs). 
+If using Spyder IDE, it is recommended to use "conda install package" for all the below. Note, alive_progress can only be installed via pip. Mixing conda and pip may cause issues with Spyder. If you experience issues with Spyder, uninstall and reinstall. Then consider a new environment be made to use this program.
+For more information on creating a secondary environment for Spyder see the linked video at timestamp 6:18 (https://www.youtube.com/watch?v=Ul79ihg41Rs). 
 
 pathlib (https://docs.python.org/3/library/pathlib.html)
+
 tkinter (https://docs.python.org/3/library/tkinter.html)
+
 matplotlib (https://matplotlib.org/)
+
 pandas (https://pandas.pydata.org/)
+
 scipy (https://scipy.org/)
+
 numpy (https://numpy.org/)
+
 h5py (https://docs.h5py.org/en/stable/)
 os (https://docs.python.org/3/library/os.html)
 alive_progress (https://github.com/rsalmei/alive-progress)
