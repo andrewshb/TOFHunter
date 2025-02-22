@@ -1,5 +1,5 @@
 """
-TOFHunter (Version 1.0.4)
+TOFHunter (Version 1.0.5)
 
 Description of the program can be found at the article below. 
 If you use this code in your research, please cite the reference:
@@ -19,7 +19,6 @@ import pandas as pd
 from scipy.signal import find_peaks
 import numpy as np
 import h5py as h5py
-import os
 from alive_progress import alive_bar
 import re
 from sklearn.decomposition import PCA
@@ -291,9 +290,9 @@ def run_TOFHunter(filename, export_path, pca_components, unique_spectra, peak_he
     #############################################################################################################
 
     NISTAMU = pd.read_excel(
-        os.getcwd()+r'/Reference Sheets/NISTAMU.xlsx')
+        str(Path.cwd())+r'/Reference Sheets/NISTAMU.xlsx')
     interference = pd.read_excel(
-        os.getcwd()+r'/Reference Sheets/ICP elements and interferents_revised.xlsx',
+        str(Path.cwd())+r'/Reference Sheets/ICP elements and interferents_revised.xlsx',
         sheet_name='Ion DB', header = 1)
 
     interference = interference.loc[interference['Ion type'] != 'elemental']
@@ -333,7 +332,7 @@ def run_TOFHunter(filename, export_path, pca_components, unique_spectra, peak_he
 #############################################################################################################################
 
 OUTPUT_PATH = Path(__file__).parent
-ASSETS_PATH = OUTPUT_PATH / Path(os.getcwd()+r"/assets/frame0/")
+ASSETS_PATH = OUTPUT_PATH / Path(str(Path.cwd())+r"/assets/frame0/")
 
 
 def relative_to_assets(path: str) -> Path:

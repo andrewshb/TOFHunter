@@ -1,5 +1,5 @@
 """
-TOFHunter (Version 1.0.4)
+TOFHunter (Version 1.0.5)
 
 Description of the program can be found at the article below. 
 If you use this code in your research, please cite the reference:
@@ -18,7 +18,7 @@ import matplotlib.pyplot as plt
 from alive_progress import alive_bar
 import re
 from sklearn.decomposition import PCA
-import os
+from pathlib import Path
 
 # copy and paste the .h5 file pathway, for example: r'/Users/CurrentUser/Desktop/TOFHunter build/my hdf5 file.h5'
 filename = r''
@@ -280,9 +280,9 @@ def run_TOFHunter(filename, export_path, pca_components, unique_spectra, peak_he
     #############################################################################################################
 
     NISTAMU = pd.read_excel(
-        os.getcwd()+r'/Reference Sheets/NISTAMU.xlsx')
+        str(Path.cwd())+r'/Reference Sheets/NISTAMU.xlsx')
     interference = pd.read_excel(
-        os.getcwd()+r'/Reference Sheets/ICP elements and interferents_revised.xlsx',
+        str(Path.cwd())+r'/Reference Sheets/ICP elements and interferents_revised.xlsx',
         sheet_name='Ion DB', header = 1)
 
     interference = interference.loc[interference['Ion type'] != 'elemental']
