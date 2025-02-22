@@ -82,8 +82,11 @@ scipy (https://scipy.org/)
 numpy (https://numpy.org/)
 
 h5py (https://docs.h5py.org/en/stable/)
-os (https://docs.python.org/3/library/os.html)
+
 alive_progress (https://github.com/rsalmei/alive-progress)
+
 re (https://docs.python.org/3/library/re.html)
+
 scikit-learn (https://scikit-learn.org/stable/)
+
 openpyxl (https://openpyxl.readthedocs.io/en/stable/)
