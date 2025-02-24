@@ -661,7 +661,7 @@ def browsefile():
     
 button_image_1 = PhotoImage(master=canvas,
     file=relative_to_assets("button_1.png"))
-button_1 = Button(
+button_1 = Button(master=canvas,
     image=button_image_1,
     borderwidth=0,
     highlightthickness=0,
@@ -697,7 +697,7 @@ def browseexport():
     
 button_image_2 = PhotoImage(master=canvas,
     file=relative_to_assets("button_2.png"))
-button_2 = Button(
+button_2 = Button(master=canvas,
     image=button_image_2,
     borderwidth=0,
     highlightthickness=0,
@@ -739,7 +739,7 @@ def get_settings():
 
 button_image_3 = PhotoImage(master=canvas,
     file=relative_to_assets("button_3.png"))
-button_3 = Button(
+button_3 = Button(master=canvas,
     image=button_image_3,
     borderwidth=0,
     highlightthickness=0,
