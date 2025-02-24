@@ -52,6 +52,8 @@ See the image below with annotated directions.
 A GUI window will appear (see below) and files and features can be modified within the GUI. 
 Note, GUI buttons may need to be clicked several times in the current version. The button will appear depressed when the click is registered. 
 Default feature values can be toggled on lines 30-45. Note, modifying lines 48 onward may effect TOFHunter GUI operation.
+In some cases, closing the GUI window will not terminate the script from running. If this happens you should click the 'interupt kernel' ![image](https://github.com/user-attachments/assets/4fcbfaa5-8460-4216-ade6-d0db519c9671) button in Spyder's console.
+
 ![image](https://github.com/user-attachments/assets/b6f954fb-d621-410a-871b-f4da2db7db0d)
 
 
