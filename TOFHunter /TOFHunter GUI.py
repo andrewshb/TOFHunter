@@ -463,7 +463,7 @@ entry_bg_1 = canvas.create_image(
     485.5,
     image=entry_image_1
 )
-entry_1 = Entry(
+entry_1 = Entry(master=canvas,
     bd=0,
     bg="#D9D9D9",
     fg="#000716",
@@ -483,7 +483,7 @@ entry_bg_2 = canvas.create_image(
     520.5,
     image=entry_image_2
 )
-entry_2 = Entry(
+entry_2 = Entry(master=canvas,
     bd=0,
     bg="#D9D9D9",
     fg="#000716",
@@ -503,7 +503,7 @@ entry_bg_3 = canvas.create_image(
     574.5,
     image=entry_image_3
 )
-entry_3 = Entry(
+entry_3 = Entry(master=canvas,
     bd=0,
     bg="#D9D9D9",
     fg="#000716",
@@ -523,7 +523,7 @@ entry_bg_4 = canvas.create_image(
     601.5,
     image=entry_image_4
 )
-entry_4 = Entry(
+entry_4 = Entry(master=canvas,
     bd=0,
     bg="#D9D9D9",
     fg="#000716",
@@ -543,7 +543,7 @@ entry_bg_5 = canvas.create_image(
     649.5,
     image=entry_image_5
 )
-entry_5 = Entry(
+entry_5 = Entry(master=canvas,
     bd=0,
     bg="#D9D9D9",
     fg="#000716",
@@ -563,7 +563,7 @@ entry_bg_6 = canvas.create_image(
     673.5,
     image=entry_image_6
 )
-entry_6 = Entry(
+entry_6 = Entry(master=canvas,
     bd=0,
     bg="#D9D9D9",
     fg="#344865",
@@ -583,7 +583,7 @@ entry_bg_7 = canvas.create_image(
     697.5,
     image=entry_image_7
 )
-entry_7 = Entry(
+entry_7 = Entry(master=canvas,
     bd=0,
     bg="#D9D9D9",
     fg="#000716",
@@ -596,7 +596,7 @@ entry_7.place(
     height=17.0
 )
 
-entry_status = Entry(
+entry_status = Entry(master=canvas,
     bd=0,
     bg="#344865",
     fg="#344865",
