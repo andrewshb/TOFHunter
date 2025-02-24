@@ -50,8 +50,9 @@ def run_TOFHunter(filename, export_path, pca_components, unique_spectra, peak_he
     
     h5_file = h5py.File(filename)
     if export_path == 'None': export = False
-    else: export = True
-
+    else: 
+        export = True
+        export_path = export_path+'.xlsx'
 
     #############################################################################################################
     # Define functions
