@@ -23,7 +23,7 @@ git clone https://github.com/andrewshb/TOFHunter
 ### Folder configuration
 Within the TOFHunter folder you will find two .py files 
 1. TOFHunter.py
-2. TOFHunter GUI.py
+2. TOFHunter_GUI.py
 
 These can be run in the users prefered python environment; however, they were designed for use with the Spyder IDE which can be installed using Anaconda (anaconda.org).
 Both files should be kept in the same working directory as included the "Reference Sheets" and "assets" folders to function properly. 
@@ -37,7 +37,7 @@ Other features can be toggled on lines 23 - 37. Note, modifying lines 38 onward 
 ![image](https://github.com/user-attachments/assets/6c7b6b7a-41e0-412b-b3ec-098ab9303ec3)
 
 
-### TOFHunter GUI.py
+### TOFHunter_GUI.py
 The script can be run by clicking "Run File" or (F5)![image](https://github.com/user-attachments/assets/5378682e-5393-48fa-a217-f70c19b3c6d0)
  in Spyder. 
 **The Spyder graphics setting must be set to tkinter **
