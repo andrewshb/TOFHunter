@@ -65,7 +65,7 @@ _Additional details are provided within each script._
 For more information on TOFHunter and example applications of its use see the associated publication. We ask that if TOFHunter is used in your study that the below article be cited. 
 
 Hunter B. Andrews, Lyndsey Hendriks, Sawyer B. Irvine, Daniel R. Dunlap, Benjamin T. Manard. 
-"TOFHunter – Unlocking Rapid Untargeted Screening by ICP-TOF-MS," _Journal of Analytical Atomic Spectrometry_, 2025.   
+"TOFHunter – Unlocking Rapid Untargeted Screening by ICP-TOF-MS," _Journal of Analytical Atomic Spectrometry_, 2025. (https://doi.org/10.1039/D4JA00331D)    
 
 ## Required Python Libraries:
 If using Spyder IDE, it is recommended to use "conda install package" for all the below. Note, alive_progress can only be installed via pip. Mixing conda and pip may cause issues with Spyder. If you experience issues with Spyder, uninstall and reinstall. Then consider a new environment be made to use this program.
