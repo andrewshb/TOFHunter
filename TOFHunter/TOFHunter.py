@@ -198,9 +198,9 @@ def run_TOFHunter(filename, export_path, pca_components, unique_spectra, peak_he
     # or define a percentage of the top IFF frequency to keep spectra if they are found above this frequency
 
     ind, freq = IFF(peakData, 2000)
-    if isinstance(unique_spectra, int) == False:
         threshold = unique_spectra*freq[0]
         unique_spectra = int(len(freq[freq>threshold]))
+    else: unique_spectra = int(unique_spectra)
     top_spectra = list(ind[:unique_spectra])
 
     Data = np.empty([len(top_spectra), len(massAxis)])
